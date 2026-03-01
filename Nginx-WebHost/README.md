@@ -59,6 +59,7 @@ PHASE 5: Backup & Recovery
     . Schedule daily backup.
 
 PHASE 6: System Monitoring
+
   Step 8: Monitor System Performance
   
     . Monitor CPU usage.
