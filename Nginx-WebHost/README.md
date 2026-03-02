@@ -122,9 +122,6 @@ SECURITY MEASURES APPLIED:
     . Controlled sudo access
     . Restricted directory permissions
 
-✏️Note: All outputs are stored in pdf format in Output.pdf file
-        Documented all in Document.pdf 
-
 📊Real-World Skills Demonstrated
 
     . Linux Administration
@@ -134,8 +131,13 @@ SECURITY MEASURES APPLIED:
     . Security Hardening
     . Troubleshooting
 
-📈Resume Impact Statement
+📈Resume Impact Statement: 
+
  Configured and secured a production-style Linux server including web hosting, firewall setup, log monitoring, automated backups, cron scheduling, and SSH hardening practices.
+
+✏️Note: All outputs are stored in pdf format in Output.pdf file
+        <br>
+        Documented all in Document.pdf 
 
 
 📬Author
