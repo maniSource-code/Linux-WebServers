@@ -21,19 +21,21 @@ Configured and managed a production-style Linux server including:
 
 PROJECT STRUCTURE:
 
-Nginx-WebHost/
-│
-├── nginx_configuration_files/    # nginx Configuration samples
-│              ├──nginx.conf
-│              ├──port-sites.conf
-├── scripts/         # Automation scripts
-│      ├──backup.sh
-│      ├──log_monitor.sh
-├── SSH_configuration # ssh configuration samples
-|           ├──sshd_config
-├── Output.pdf/     # Project proof screenshots
-├── Document.pdf/   # Detailed documentation
-└── README.md
+<pre>
+   Nginx-WebHost/
+   │
+   ├── nginx_configuration_files/    # nginx Configuration samples
+   │              ├──nginx.conf
+   │              ├──port-sites.conf
+   ├── scripts/         # Automation scripts
+   │      ├──backup.sh
+   │      ├──log_monitor.sh
+   ├── SSH_configuration # ssh configuration samples
+   |           ├──sshd_config
+   ├── Output.pdf/     # Project proof screenshots
+   ├── Document.pdf/   # Detailed documentation
+   └── README.md
+</pre>
 
 
 PHASE 1: Server Setup & User Management
@@ -103,11 +105,16 @@ PHASE 6: System Monitoring
 --------------------------------------------------------------------------------
 
 COMMANDS TO EXECUTE:
+<br>
   #chmod +x backup.sh
+<br>
   #chmod +x log_monitor.sh
+<br>
   #bash backup.sh
+<br> 
   #bash log_monitor.sh
-
+<br>
+  
 SECURITY MEASURES APPLIED: 
 
     . SSH Hardening
