@@ -1,12 +1,17 @@
 #!/bin/bash
-
+#Source Files
 SECURE_LOG="/var/log/secure" #ssh logfile
 ACCESS_LOG="/var/log/nginx/access.log" #nginx access.log
 ERROR_LOG="/var/log/nginx/error.log" #nginx error.log
 
 DATE=$(date +%Y-%m-%d_%H-%M-%S)
 
-OUTPUT_FILE="/home/mani/log_monitor/log-$DATE.txt"
+#Output directory
+OUTPUT_DIR="/nginx-logs-backup/log_monitor"
+#create directory if not exists
+mkdir -p $OUTPUT_DIR
+
+OUTPUT_FILE="$OUTPUT_DIR/log-$DATE.txt"
 
 echo "===== Log Report - $DATE =====" >> $OUTPUT_FILE
 
