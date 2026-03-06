@@ -102,7 +102,23 @@ PHASE 6: System Monitoring
     . Monitor memory usage.
     . Monitor disk usage.
 
---------------------------------------------------------------------------------
+---
+
+OUTPUT:
+
+MYWEB:![my-webpage](images/output1.png)
+
+Nginx-WEB:![NGINX-WEBSITE](images/output2.png)
+
+BACKUP-SCRIPT:![BACKUP-BASH SCRIPT](images/output3.png)
+
+LOG_MONITOR-SCRIPT:![LOG_MONITOR-BASH SCRIPT](images/output4.png)
+
+FIREWALL RULES:![FIREWALL RULES-LIST](images/output5.png)
+
+for all outputs verify here [OUTPUTS](Output.pdf) OR [IMAGES](images)
+
+---
 
 COMMANDS TO EXECUTE:
 
@@ -133,15 +149,12 @@ SECURITY MEASURES APPLIED:
 
  Configured and secured a production-style Linux server including web hosting, firewall setup, log monitoring, automated backups, cron scheduling, and SSH hardening practices.
 
-✏️Note: All outputs are stored in pdf format in Output.pdf file
-        <br>
-        Documented all in Document.pdf 
-
+✏️Note: Documented complete process and steps in the [Document.pdf](Document.pdf) file.
 
 📬Author
 
 Manikanta Mangalapalli
-<br>
+
 DevOps Engineer
-<br>
+
 GitHub: https://github.com/maniSource-code
