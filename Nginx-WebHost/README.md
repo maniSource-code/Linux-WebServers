@@ -105,22 +105,20 @@ PHASE 6: System Monitoring
 --------------------------------------------------------------------------------
 
 COMMANDS TO EXECUTE:
-<br>
-  #chmod +x backup.sh
-<br>
-  #chmod +x log_monitor.sh
-<br>
-  #bash backup.sh
-<br> 
-  #bash log_monitor.sh
-<br>
+
+```bash
+  chmod +x backup.sh
+  chmod +x log_monitor.sh
+  bash backup.sh
+  bash log_monitor.sh
+  ```
   
 SECURITY MEASURES APPLIED: 
 
-    . SSH Hardening
-    . Firewall configuration
-    . Controlled sudo access
-    . Restricted directory permissions
+    - SSH Hardening
+    - Firewall configuration
+    - Controlled sudo access
+    - Restricted directory permissions
 
 📊Real-World Skills Demonstrated
 
